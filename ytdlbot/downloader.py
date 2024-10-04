@@ -5,7 +5,7 @@
 # 8/14/21 16:53
 #
 
-__author__ = "Benny <benny.think@gmail.com>"
+__author__ = "Noob <dolabani46@gmail.com>"
 
 import functools
 import logging
@@ -36,7 +36,7 @@ from config import (
     FileTooBig,
     IPv6,
 )
-from limit import Payment
+from payment import Payment
 from utils import adjust_formats, apply_log_formatter, current_time, sizeof_fmt
 
 apply_log_formatter()

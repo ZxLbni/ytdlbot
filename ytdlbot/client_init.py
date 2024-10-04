@@ -5,7 +5,7 @@
 # 12/29/21 16:20
 #
 
-__author__ = "Benny <benny.think@gmail.com>"
+__author__ = "Noob <dolabani46@gmail.com>"
 
 from pyrogram import Client
 

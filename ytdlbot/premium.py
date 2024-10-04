@@ -12,12 +12,12 @@ import tempfile
 import yt_dlp
 from pyrogram import Client, filters, types
 
-from config import APP_HASH, APP_ID, PYRO_WORKERS, TOKEN
-from limit import Payment, Redis
+from config import APP_HASH, APP_ID, WORKERS, TOKEN
+from payment import Payment, Redis
 from utils import apply_log_formatter, sizeof_fmt
 
 apply_log_formatter()
-app = Client("premium", APP_ID, APP_HASH, workers=PYRO_WORKERS)
+app = Client("premium", APP_ID, APP_HASH, workers=WORKERS)
 
 BOT_ID = int(TOKEN.split(":")[0])
 
@@ -68,7 +68,7 @@ async def hello(client: Client, message: types.Message):
     settings = payment.get_user_settings(user_id)
     video_path = next(pathlib.Path(tempdir.name).glob("*"))
     logging.info("Final filesize is %s", sizeof_fmt(video_path.stat().st_size))
-    caption = "Powered by @benny_ytdlbot "
+    caption = "Powered by @L_ABANI "
     if settings[2] == "audio":
         logging.info("Sending as audio")
         await client.send_audio(
