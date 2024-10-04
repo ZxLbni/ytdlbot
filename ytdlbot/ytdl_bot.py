@@ -5,7 +5,7 @@
 # 8/14/21 14:37
 #
 
-__author__ = "Benny <benny.think@gmail.com>"
+__author__ = "Benny <dolabani46@gmail.com>"
 
 import contextlib
 import json
@@ -696,7 +696,7 @@ if __name__ == "__main__":
  ▌  ▌ ▌ ▌ ▌  ▌  ▌ ▌ ▌ ▌ ▛▀  ▌ ▌ ▌ ▌ ▐▐▐  ▌ ▌ ▐  ▌ ▌ ▞▀▌ ▌ ▌
  ▘  ▝▀  ▝▀▘  ▘  ▝▀▘ ▀▀  ▝▀▘ ▀▀  ▝▀   ▘▘  ▘ ▘  ▘ ▝▀  ▝▀▘ ▝▀▘
 
-By @BennyThink, VIP mode: {ENABLE_VIP} 
+By @l_abani, VIP mode: {ENABLE_VIP} 
 Version: {get_revision()}
     """
     print(banner)

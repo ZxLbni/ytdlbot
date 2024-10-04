@@ -5,7 +5,7 @@
 # 12/7/21 16:57
 #
 
-__author__ = "Benny <benny.think@gmail.com>"
+__author__ = "Noob <dolabani46@gmail.com>"
 
 import logging
 import os

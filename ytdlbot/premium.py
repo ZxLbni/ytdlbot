@@ -68,7 +68,7 @@ async def hello(client: Client, message: types.Message):
     settings = payment.get_user_settings(user_id)
     video_path = next(pathlib.Path(tempdir.name).glob("*"))
     logging.info("Final filesize is %s", sizeof_fmt(video_path.stat().st_size))
-    caption = "Powered by @benny_ytdlbot "
+    caption = "Powered by @L_ABANI "
     if settings[2] == "audio":
         logging.info("Sending as audio")
         await client.send_audio(

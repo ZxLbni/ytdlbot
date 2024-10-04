@@ -5,7 +5,7 @@
 # 8/28/21 15:01
 #
 
-__author__ = "Benny <benny.think@gmail.com>"
+__author__ = "Noob <dolabani46@gmail.com>"
 
 import os
 
@@ -20,7 +20,7 @@ TOKEN = os.getenv("TOKEN", "1234")
 REDIS = os.getenv("REDIS", "redis")
 
 ENABLE_VIP = os.getenv("VIP", False)
-OWNER = os.getenv("OWNER", "BennyThink")
+OWNER = os.getenv("OWNER", "L_abani")
 
 # limitation settings
 AUTHORIZED_USER: str = os.getenv("AUTHORIZED_USER", "")

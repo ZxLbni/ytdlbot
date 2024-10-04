@@ -5,7 +5,7 @@
 # 3/16/24 16:32
 #
 
-__author__ = "SanujaNS <sanujas@sanuja.biz>"
+__author__ = "Labani0 <dolabani46@gmail.com>"
 
 import logging
 import os
